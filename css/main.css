@@ -1,0 +1,160 @@
+/* Main Content */
+
+.main-content {
+  position:relative;
+}
+
+.img-responsive {
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 8px #EBEBEB;
+}
+
+.category-main {
+  font: 18px;
+  color: #4b14c0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content-background {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 8px;
+  position: relative;
+  border: 1px solid #EBEBEB;
+  border-radius: 8px;
+  box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+}
+
+.story {
+  text-transform: uppercase;
+  color:black;
+  text-align: center;
+  margin: 12px;
+}
+
+.summary {
+  text-align: center;
+}
+
+a {
+  color:inherit;
+}
+
+.info-wrapper {
+  position: relative;
+  border-top: 4px solid #4b14c0;
+  padding: 15px 30px 25px;
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 768px){
+  .info-wrapper {
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0.5) 0,#fff 50%,#fff 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .category-main {
+    font-size: 24px;
+  }
+}
+
+/* ----------------------- */
+
+/* Main Horizontal Divider- after main pic */
+
+.main-horizontal-divider {
+  border-top:1px solid #EBEBEB;
+}
+
+/* ----------------------- */
+
+/* Vertical Divider */
+.vertical-divider {
+  border-right: 0px solid #EBEBEB;
+}
+
+@media only screen and (min-width: 768px){
+  .vertical-divider {
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .vertical-divider {
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .vertical-divider {
+    height: 800px;
+  }
+}
+
+
+/* ----------------------- */
+
+/* Sub Main Content */
+
+.sub-box {
+  margin-top: 24px;
+  border: 0px solid #EBEBEB;
+  border-radius: 8px;
+  padding: 8px 8px;
+}
+
+.category-main.blue {
+  color: #3770e0;
+}
+
+#blue-background {
+  border: 1px solid #EBEBEB;
+  background-color: #f2f2f2;
+  box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+  padding: 8px 8px;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 767px){
+  .sub-box {
+    height: 630px;
+  }
+  #blue-background {
+    height: 615px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .sub-box {
+    height: 550px;
+  }
+  #blue-background {
+    height: 535px;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .sub-box {
+    height: 670px;
+  }
+  #blue-background {
+    height: 555px;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .sub-box {
+    height: 690px;
+  }
+  #blue-background {
+    height: 675px;
+  }
+}
